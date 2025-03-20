@@ -111,9 +111,9 @@ Begin
     writeln('Ingrese 2 para leer el archivo de empleados');
     writeln('Ingrese 3 para buscar un empleado');
     writeln('Ingrese 4 para buscar empleados mayores a 70');
-    readln(opcion);
     while(opcion<1) or (opcion>4) do
     begin
+        readln(opcion);
         if(opcion=1)then
         begin
             crearArchivo(empleados);
@@ -133,6 +133,6 @@ Begin
         else
             writeln('Ingresa un valor valido');
         end;
-        readln(opcion);
+        
     end;
 End.
