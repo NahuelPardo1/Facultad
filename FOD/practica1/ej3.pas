@@ -27,11 +27,7 @@ end;
 procedure crearArchivo(var empleados:archivo);
 var
     e:empleado;
-    arc_fisico: string[20];
 begin
-    writeln('Ingrese el nombre del archivo: ');
-    readln(arc_fisico);
-    assign(empleados, arc_fisico);
     rewrite(empleados);
     leerEmpleado(e);
     while (e.apellido<>'fin') do
@@ -99,40 +95,88 @@ begin
     end;
     close(empleados);
 end;
+procedure agregarEmpleado(var emp: archivo);
+var
+    e:empleado;
+    aux:empleado;
+    repetido:boolean;
+begin
+    repetido:=false;
+    reset(emp);
+    leerEmpleado(e);
+    while(e.nombre <> 'fin')do begin
+        while not eof and repetido=true do
+        begin
+            read(emp,aux);
+            if(aux.num=e.num)then repetido:=true;
+        end;
+        if(repetido=false)then begin
+            seek(emp,filesize(emp));
+            write(emp,e);
+        end
+        else
+            writeln('Empleado ya existente');
+        leerEmpleado(e);
+    end;
+    close(emp);
+end;
+procedure modificarEmpleado(var emp: archivo);
+var
+    num:integer;
+    aux:empleado;
+    edad:integer;
+begin
+    writeln('Ingrese el numero de empleado a modificar')
+    readln(num);
+    reset(emp)
+    read(emp,aux)
+    while not eof and num<>aux.num do
+    begin
+        
+    end;
+    if(num=aux.num)then
+    begin
+        seek((filePos(emp)-1))
+        writeln('Ingrese la nueva edad: ');
+        readln(edad);
+        aux.edad:=edad;
+        write(emp,aux);
+    end;
+end;
 
 var
     empleados: archivo;
     opcion:integer;
+    arc_fisico: string[20];
 Begin
 
     writeln('||Bienvenido al sistema de empleados||');
     writeln;
+    writeln('Ingrese el nombre del archivo a utilizar: ');
+    read(arc_fisico);
+    assign(empleados,arc_fisico);
     writeln('Ingrese 1 para crear un archivo de empleados');
     writeln('Ingrese 2 para leer el archivo de empleados');
     writeln('Ingrese 3 para buscar un empleado');
     writeln('Ingrese 4 para buscar empleados mayores a 70');
-    while(opcion<1) or (opcion>4) do
-    begin
-        readln(opcion);
-        if(opcion=1)then
-        begin
-            crearArchivo(empleados);
-        end
-        else if(opcion=2)then
-        begin
-            leerArchivo(empleados);
-        end
-        else if(opcion=3)then
-        begin
-            buscarEmpleado(empleados);
-        end
-        else if(opcion=4)then
-        begin
-            mayor70(empleados);
-        end
-        else
-            writeln('Ingresa un valor valido');
-        end;
-        
+    writeln('Ingrese 5 para agregar uno o mas empleados');
+    writeln('Ingrese 6 para modificar la edad de un empleado');
+    writeln('Ingrese 7 exportar el contenido a un archivo de texto');
+    writeln('Ingrese 8 exportar a un archivo de texto los empleados que no tengan dni cargado');
+    readln(opcion);
+    while(opcion<1) or (opcion>8) do begin
+        writeln('Ingresa un valor valido: ');
+        read(opcion);
     end;
+    case opcion of
+        1:crearArchivo(empleados);
+        2:leerArchivo(empleados);
+        3:buscarEmpleado(empleados);
+        4:mayor70(empleados);
+        5:agregarEmpleado(empleados);
+        6:modificarEmpleado(empleados);
+        7:exportarCont(empleados);
+        8:exportarEmp(empleados);
+    end;
+    
 End.

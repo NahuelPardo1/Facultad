@@ -135,7 +135,60 @@ class Program{
 /* Ejercicio 14
     No, no le asigna el valor null a la variable sino que el int[]? indica que puede ser null pero al hacer = new int[0] se le asigna un array vacio.
 */
-/* Ejercicio 15*/
+/* Ejercicio 16*/
+void imp1(params string[] vector){
+    foreach(string s in vector){
+        Console.WriteLine(s);
+    }
+}
+void imprimir(params object[] elementos){
+        Console.WriteLine(string.Join(" ", elementos));
+}
+void imp2(string[] vector){
+    for (int i = 0; i < vector.Length; i++){
+        Console.WriteLine(vector[i]);
+    }
+}
+bool esPrimo(int n){
+    if(n < 2) return false;
+    for(int i = 2 ; i <= Math.Sqrt(n) ; i++){
+        if(n % i == 0) return false;
+    }
+    return true;
 
 
-    
+}
+void Fac(int n, out int f){
+    f=1;
+    for(int i=2;i<=n;i++){
+        f*=i;
+    }
+}
+void Swap(ref int a, ref int b){
+    int temp=a;
+    a=b;
+    b=temp;
+}
+
+imp1("Hola","Mundo","en","C#");
+imp2(new string[]{"Hola","Mundo","en","C#"});
+if (args.Length == 0 || !int.TryParse(args[0], out int num) || num < 1)
+        {
+            Console.WriteLine("Por favor, ingrese un número natural válido como argumento.");
+            return;
+        }
+Console.WriteLine("Números primos entre 1 y " + num + ":");
+for (int i = 1; i <= num; i++)
+    {
+        if (esPrimo(i))
+        {
+            Console.Write(i + " ");
+        }
+    }
+Fac(num,out int factorial);
+Console.WriteLine("\nEl factorial de "+num+" es: "+factorial);
+int x = 5, y = 10;
+Console.WriteLine("Antes del intercambio: x = " + x + ", y = " + y);
+Swap(ref x, ref y);
+Console.WriteLine("Después del intercambio: x = " + x + ", y = " + y);
+imprimir(1,"hola",3.1,'a');
