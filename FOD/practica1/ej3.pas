@@ -4,7 +4,7 @@ type
         apellido:string[20];
         nombre:string[20];
         edad:integer;
-        dni:integer;
+        dni:string[8];
     end;
     archivo=file of empleado;
 procedure leerEmpleado(var e:empleado);
@@ -126,30 +126,65 @@ var
     aux:empleado;
     edad:integer;
 begin
-    writeln('Ingrese el numero de empleado a modificar')
+    writeln('Ingrese el numero de empleado a modificar');
     readln(num);
-    reset(emp)
-    read(emp,aux)
-    while not eof and num<>aux.num do
+    reset(emp);
+    read(emp,aux);
+    while (not eof) and (num<>aux.num) do
     begin
-        
+        read(emp,aux);
     end;
     if(num=aux.num)then
     begin
-        seek((filePos(emp)-1))
+        seek(emp,(filePos(emp))-1);
         writeln('Ingrese la nueva edad: ');
         readln(edad);
         aux.edad:=edad;
         write(emp,aux);
+    end
+    else writeln('Empleado no encontrado');
+end;
+procedure exportarCont(var emp:archivo; var c:Text);
+var
+    e:empleado;
+begin
+    reset(emp);
+    rewrite(c);
+    writeln(c,'Empleados: ');
+    while(not eof(emp))do begin
+        read(emp,e);
+        writeln(c, e.num,' ',e.nombre,' ',e.apellido,' ',e.edad,' ',e.dni);
     end;
+    close(emp);
+    close(c);
+
+end;
+procedure exportarEmp(var emp:archivo; var c:Text);
+var
+    e:empleado;
+begin
+    reset(emp);
+    rewrite(c);
+    writeln(c,'EMPLEADOS SIN DNI CARGADO: ');
+    while(not eof(emp))do begin
+        read(emp,e);
+        if(e.dni= '00')then
+        writeln(c, e.num,' ',e.nombre,' ',e.apellido,' ',e.edad,' ',e.dni);
+    end;
+    close(emp);
+    close(c);
+
 end;
 
 var
     empleados: archivo;
     opcion:integer;
     arc_fisico: string[20];
+    carga: Text;
+    carga2:Text;
 Begin
-
+    assign(carga,'todos_empleados.txt');
+    assign(carga2,'faltaDNIEmpleado.txt');
     writeln('||Bienvenido al sistema de empleados||');
     writeln;
     writeln('Ingrese el nombre del archivo a utilizar: ');
@@ -175,8 +210,10 @@ Begin
         4:mayor70(empleados);
         5:agregarEmpleado(empleados);
         6:modificarEmpleado(empleados);
-        7:exportarCont(empleados);
-        8:exportarEmp(empleados);
+        7:exportarCont(empleados,carga);
+        8:exportarEmp(empleados,carga2);
     end;
+    close(empleados);
+    close(carga);
     
 End.
