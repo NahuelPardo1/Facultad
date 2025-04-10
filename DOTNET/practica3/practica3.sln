@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teoria1", "teoria1.csproj", "{950188F9-79C4-3FA2-255F-A1482C497065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practica3", "practica3.csproj", "{16230ADA-93E5-BB57-2B77-FC95169AD87F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{950188F9-79C4-3FA2-255F-A1482C497065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{950188F9-79C4-3FA2-255F-A1482C497065}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{950188F9-79C4-3FA2-255F-A1482C497065}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{950188F9-79C4-3FA2-255F-A1482C497065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16230ADA-93E5-BB57-2B77-FC95169AD87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16230ADA-93E5-BB57-2B77-FC95169AD87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16230ADA-93E5-BB57-2B77-FC95169AD87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16230ADA-93E5-BB57-2B77-FC95169AD87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {731DDB53-9477-4819-AB37-70143DD4F211}
+		SolutionGuid = {ABF76E15-0F48-42E4-8276-6088981F3A5C}
 	EndGlobalSection
 EndGlobal

@@ -1,3 +1,0 @@
-EMPLEADOS SIN DNI CARGADO: 
-10 juan schmid 20 00
-90 fermin franco 80 00

@@ -1,0 +1,15 @@
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\bin\Debug\net8.0\practica3.exe
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\bin\Debug\net8.0\practica3.deps.json
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\bin\Debug\net8.0\practica3.runtimeconfig.json
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\bin\Debug\net8.0\practica3.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\bin\Debug\net8.0\practica3.pdb
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.AssemblyInfoInputs.cache
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.AssemblyInfo.cs
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.csproj.CoreCompileInputs.cache
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.sourcelink.json
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\refint\practica3.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.pdb
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\practica3.genruntimeconfig.cache
+C:\Users\Nahu\Desktop\Universidad\DOTNET\practica3\obj\Debug\net8.0\ref\practica3.dll

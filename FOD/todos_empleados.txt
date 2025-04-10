@@ -1,6 +1,0 @@
-Empleados: 
-30 Nahuel Pardo 70 4564
-20 agustina benitex 21 43456
-10 juan schmid 20 00
-70 valentino kvolek 13 657
-90 fermin franco 80 00
