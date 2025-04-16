@@ -31,12 +31,16 @@ public class Queue<T> extends Sequence  {
 
     @Override
     public boolean isEmpty() {
-        return elementos.isEmpty();
+        return (elementos.size()==0);
     }
 
     @Override
     public String toString(){
-        return elementos.toString();
+        String str = "[";
+        for(T d: elementos)
+            str = str + d +", ";
+        str = str.substring(0, str.length()-2)+"]";
+        return str;
     }
 
     public static void main(String[] args) {
