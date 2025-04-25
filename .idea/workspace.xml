@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d4355cc-27c9-4833-9c55-bd01fb03d532" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AyED/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/2025_TP1_Listas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/2025_TP2_AB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/2025_TP3_AG.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 1.1 - Creando clases - static - parametros (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 2.2 - Herencia en Colas - Pilas y Java List.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 3.1 - Arboles Binarios.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 3.2 - Arboles de Expresión.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 4 - Arboles Binarios y de Expresión en JAVA-vf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 5 - Arboles Generales.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 5.1 - Resolución de la ejercitación con Recorrido por Niveles en AG.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/CLASE 6 - Arboles Generales en JAVA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio1/tp1_ej1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio2/tp1_ej2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio3/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio3/Profesor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio3/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio4/tp1_ej4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio5/Resultado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio5/tp1_ej5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio6/tp1_ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio7/Recursividad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio7/TestArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio7/estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio8/CircularQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio8/DoubleEndedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio8/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp1/ejercicio8/Sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio1/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio1/ej1_tp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio3/ContadorArbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio4/RedBinariaLlena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio5/ProfundidadDeArbolBinario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AyED/src/main/java/tp2/ejercicio6/Transformacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NahuPardo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NahuPardo/Facultad.git",
+    "accountId": "1ec86dd2-4613-4fa4-8668-d8d129ecfef0"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2w6PquSrWV3EifKBC9xUHVh73vB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nahu/Desktop/Universidad"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d4355cc-27c9-4833-9c55-bd01fb03d532" name="Changes" comment="" />
+      <created>1745359244099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745359244099</updated>
+    </task>
+    <servers />
+  </component>
+</project>

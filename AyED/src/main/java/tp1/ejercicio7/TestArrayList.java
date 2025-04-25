@@ -1,83 +1,62 @@
 package tp1.ejercicio7;
 
+import tp1.ejercicio3.Estudiante;
+
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class TestArrayList {
-    public static boolean esCapicua(ArrayList<Integer> lista) {
-        int n = lista.size();
-        for (int i = 0; i < n / 2; i++) {
-            if (!lista.get(i).equals(lista.get(n - 1 - i))) {
-                return false;
-            }
-        }
-        return true;
-    }
     public static void main(String[] args) {
-        ArrayList<Integer> numeros = new ArrayList<>();
-        for(String arg: args){
-
-            try{
-                numeros.add(Integer.parseInt(arg));
-            }
-            catch (NumberFormatException e){
-                System.out.println("Ignorando valor no numerico: "+ arg);
-
-            }
+        List<Integer> lista = new LinkedList<>();
+        for(int i=0; i<args.length; i++){
+            lista.add(Integer.parseInt(args[i]));
         }
-        Iterator<Integer> it = numeros.iterator();
-        System.out.println("Contenido de la lista: ");
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
-        ArrayList<estudiante> estudiantes = new ArrayList<estudiante>();
-        estudiante nahuel = new estudiante("nahuel","pardo",45433);
-        estudiante juan = new estudiante("juan","schmid",45232);
-        estudiante valentino= new estudiante("valentino","kvolek",42321);
-        estudiantes.add(nahuel);
-        estudiantes.add(juan);
-        estudiantes.add(valentino);
-        ArrayList<estudiante> estudiantes_copiados= new ArrayList<>(estudiantes);
-        /*for(estudiante s: estudiantes){
-            System.out.println(s.apellido);
-            System.out.println(s.nombre);
-            System.out.println(s.legajo);
-        }
-        for (estudiante s: estudiantes_copiados){
-            System.out.println(s.apellido);
-            System.out.println(s.nombre);
-            System.out.println(s.legajo);
-        }
-        */
-        estudiante yoni = new estudiante("yoni","hiriart",43543);
-        if(!estudiantes_copiados.contains(yoni)){
-            estudiantes_copiados.add(yoni);
-        }
-        for (estudiante s: estudiantes_copiados){
-            System.out.println(s.apellido);
-            System.out.println(s.nombre);
-            System.out.println(s.legajo);
-        }
-        ArrayList<Integer> numbers = new ArrayList<>();
-
-        for (String arg : args) {
-            try {
-                numbers.add(Integer.parseInt(arg));
-            } catch (NumberFormatException e) {
-                System.out.println("Ignorando valor no numérico: " + arg);
-            }
+        System.out.println("La lista tiene "+lista.size()+" elementos");
+        for(Integer i : lista){
+            System.out.println(i);
         }
 
-        System.out.println("Contenido de la lista:");
-        for (int num : numbers) {
-            System.out.println(num);
+        Estudiante Nahuel = new Estudiante("Nahuel", "Pardo","Turno 2 B","Nahuel@gmail.com","2 entre 58 y 59");
+        Estudiante JuanPablo = new Estudiante("Juan", "Schmid","Turno 1 A","Juan@gmail.com","212 entre 1 y 2");
+        Estudiante Yonathan = new Estudiante("Yoni", "Hiriart","Turno 5 A","Yoni@gmail.com","10 entre 58 y 57");
+        List<Estudiante> estudiantes = new ArrayList<>();
+        estudiantes.add(Nahuel);
+        estudiantes.add(JuanPablo);
+        estudiantes.add(Yonathan);
+
+        List<Estudiante> copia = estudiantes;
+        System.out.println("Lista original");
+        for(Estudiante e: estudiantes){
+            System.out.println(e.tusDatos());
+            System.out.println();
+        }
+        System.out.println();
+        System.out.println("Copia");
+        for(Estudiante e: copia){
+            System.out.println(e.tusDatos());
+            System.out.println();
         }
 
-        // Verificar si la lista es capicúa
-        if (esCapicua(numbers)) {
-            System.out.println("La lista es capicúa.");
-        } else {
-            System.out.println("La lista no es capicúa.");
+        estudiantes.getFirst().setNombre("Carlitos");
+        System.out.println("Lista original");
+        for(Estudiante e: estudiantes){
+            System.out.println(e.tusDatos());
+            System.out.println();
         }
+        System.out.println();
+        System.out.println("Copia");
+        for(Estudiante e: copia){
+            System.out.println(e.tusDatos());
+            System.out.println();
+        }
+
+        if(!estudiantes.contains(Nahuel)){
+            estudiantes.add(Nahuel);
+        }else{
+            System.out.println("Este estudiante ya está en la lista");
+        }
+
+
     }
 }

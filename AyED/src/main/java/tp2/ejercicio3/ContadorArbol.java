@@ -1,49 +1,43 @@
 package tp2.ejercicio3;
+
 import tp2.ejercicio1.BinaryTree;
-import java.util.LinkedList;
-import java.util.List;
+
+import java.util.ArrayList;
 
 public class ContadorArbol {
-    private BinaryTree<Integer> arbol;
+    private BinaryTree<Integer> a;
 
-    public ContadorArbol(BinaryTree<Integer> arbol){
-        this.arbol=arbol;
+    public ContadorArbol(BinaryTree<Integer> unArbol) {
+        a = unArbol;
     }
-
-    public List<Integer> numerosParesPre(){
-        List<Integer> l = new LinkedList<Integer>();
-        if(!arbol.isEmpty()) this.nParesPRE(l,arbol);
-        return l;
-
-    }
-    private void nParesPRE(List<Integer>l, BinaryTree<Integer> a){
-        if(a.getData()%2==0) l.add(a.getData());
-        if(a.hasLeftChild()) nParesPRE(l,a.getLeftChild());
-        if(a.hasRightChild()) nParesPRE(l,a.getRightChild());
-    }
-
-    public List<Integer> numerosParesIn() {
-        List<Integer> l = new LinkedList<Integer>();
-        if(!arbol.isEmpty()) this.nParesIN(l, arbol);
+    public ArrayList<Integer> numerosParesIn(){
+        ArrayList<Integer> l = new ArrayList<Integer>();
+        if(!a.isEmpty()){
+            this.paresInOrden(l,a);
+        }
         return l;
     }
 
-    private void nParesIN(List<Integer> l, BinaryTree<Integer> a) {
-        if(a.hasLeftChild()) nParesIN(l, a.getLeftChild());
+    private void paresInOrden(ArrayList<Integer>l,BinaryTree<Integer>a){
+        if(a.hasLeftChild()) paresInOrden(l,a.getLeftChild());
         if(a.getData()%2==0) l.add(a.getData());
-        if(a.hasRightChild()) nParesIN(l, a.getRightChild());
-    }
+        if(a.hasRightChild()) paresInOrden(l,a.getRightChild());
 
-    public List<Integer> numerosParesPost() {
-        List<Integer> l = new LinkedList<Integer>();
-        if(!arbol.isEmpty()) this.nParesPOST(l, arbol);
+    }
+    public ArrayList<Integer> numerosParesPost(){
+        ArrayList<Integer> l = new ArrayList<Integer>();
+        if(!a.isEmpty()){
+            this.paresPostOrden(l,a);
+        }
         return l;
     }
 
-    private void nParesPOST(List<Integer> l, BinaryTree<Integer> a) {
-        if(a.hasLeftChild()) nParesPOST(l, a.getLeftChild());
-        if(a.hasRightChild()) nParesPOST(l, a.getRightChild());
+    private void paresPostOrden(ArrayList<Integer>l,BinaryTree<Integer>a){
+        if(a.hasLeftChild()) paresInOrden(l,a.getLeftChild());
+        if(a.hasRightChild()) paresInOrden(l,a.getRightChild());
         if(a.getData()%2==0) l.add(a.getData());
     }
+
+
 
 }

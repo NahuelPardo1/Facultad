@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Interactivo - C# Teoría 6</title>
+    <style>
+        /* Estilos CSS (igual que la versión anterior) */
+         body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #quiz-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #5a2d7d;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #question-container {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        #question-text {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        #options-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #options-list li {
+            margin-bottom: 12px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+         #options-list li:hover {
+            background-color: #f0e6f7;
+         }
+
+        #options-list input[type="radio"] {
+            margin-right: 10px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+         #options-list label {
+             cursor: pointer;
+             display: inline;
+             vertical-align: middle;
+         }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #8a4dbf;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #5a2d7d;
+        }
+         button:disabled {
+             background-color: #cccccc;
+             cursor: not-allowed;
+         }
+
+        #feedback-container {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .feedback-correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feedback-incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .feedback-explanation {
+            margin-top: 10px;
+            font-weight: normal;
+            font-style: italic;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+        .feedback-explanation a {
+            color: #5a2d7d;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+         .feedback-explanation a:hover {
+             color: #8a4dbf;
+         }
+
+
+        #score-container {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e9dff0;
+            border-radius: 8px;
+        }
+         #score-container p {
+             font-size: 1.2em;
+         }
+         #score {
+            font-weight: bold;
+            color: #5a2d7d;
+         }
+         #total-questions {
+             font-weight: bold;
+         }
+         #restart-btn {
+             width: auto;
+             display: inline-block;
+             padding: 10px 30px;
+         }
+    </style>
+</head>
+<body>
+
+    <div id="quiz-container">
+        <h1>Cuestionario Interactivo - C# Teoría 6</h1>
+
+        <div id="question-container">
+            <p id="question-number"></p>
+            <p id="question-text"></p>
+            <ul id="options-list">
+                <!-- Las opciones se cargarán aquí con JS -->
+            </ul>
+        </div>
+
+        <button id="submit-btn">Verificar Respuesta</button>
+
+        <div id="feedback-container" style="display: none;">
+             <p id="feedback-result"></p>
+             <!-- Usaremos innerHTML para este elemento -->
+            <p id="feedback-explanation" class="feedback-explanation"></p>
+        </div>
+
+        <button id="next-btn" style="display: none;">Siguiente Pregunta</button> <!-- Texto se cambiará dinámicamente -->
+
+        <div id="score-container" style="display: none;">
+            <h2>Resultado Final</h2>
+            <p>Tu puntuación: <span id="score">0</span> / <span id="total-questions">0</span></p>
+            <button id="restart-btn">Reiniciar Cuestionario</button>
+        </div>
+    </div>
+
+    <script>
+        // <<<--- Nombre del archivo PDF actualizado
+        const pdfFileName = '06 Teoria y Practica 2025.pdf';
+        // <<<--- Asegúrate de que este archivo PDF esté en la misma carpeta que este archivo HTML
+
+        // <<<--- Nuevos datos del cuestionario para Teoría 6
+        const quizData = [
+            {
+                question: "¿Qué permite fundamentalmente la herencia en la programación orientada a objetos según la teoría?",
+                options: [
+                    "Crear múltiples instancias de una misma clase.",
+                    "Reutilizar, extender y modificar el comportamiento definido en otras clases (clases base).",
+                    "Asegurar que todas las clases tengan un método Imprimir().",
+                    "Limitar el acceso a los miembros de una clase."
+                ],
+                correctAnswer: 1, // Índice b)
+                feedback: "Respuesta Correcta: b)\nFeedback: La definición de herencia se encuentra en la página 3, indicando que permite reutilizar, extender y modificar el comportamiento de clases base en clases derivadas."
+            },
+            {
+                question: "¿Cuál es la sintaxis correcta en C# para indicar que la clase Auto deriva de la clase Automotor?",
+                options: [
+                    "class Auto extends Automotor",
+                    "class Auto inherits Automotor",
+                    "class Auto : Automotor",
+                    "class Auto derives Automotor"
+                ],
+                correctAnswer: 2, // Índice c)
+                feedback: "Respuesta Correcta: c)\nFeedback: La sintaxis de derivación de clases en C# utiliza los dos puntos (:), como se muestra en el ejemplo de la página 13 (class Auto: Automotor)."
+            },
+             {
+                 question: "Para permitir que un método de una clase base (ej: Imprimir() en Automotor) pueda ser invalidado (sobrescrito) en una clase derivada, ¿qué palabra clave debe usarse en la declaración del método en la clase base?",
+                 options: [ "override", "abstract", "base", "virtual" ],
+                 correctAnswer: 3, // Índice d)
+                 feedback: "Respuesta Correcta: d)\nFeedback: La página 19 explica que para poder invalidar un método, este debe marcarse con la palabra clave virtual en la clase base."
+             },
+             {
+                 question: "Cuando una clase derivada (ej: Colectivo) proporciona su propia implementación de un método virtual heredado (ej: Imprimir()), ¿qué palabra clave debe preceder a la declaración del método en la clase derivada?",
+                 options: [ "virtual", "override", "new", "base" ],
+                 correctAnswer: 1, // Índice b)
+                 feedback: "Respuesta Correcta: b)\nFeedback: La página 21 indica que se debe usar el modificador override en la clase derivada para señalar que se está invalidando (proporcionando una nueva implementación) el método virtual heredado."
+             },
+             {
+                 question: "Dentro de un constructor de una clase derivada, ¿cómo se invoca explícitamente a un constructor específico de la clase base?",
+                 options: [
+                     "Usando super(parametros) antes del cuerpo del constructor derivado.",
+                     "Usando : base(parametros) después de la declaración del constructor derivado y antes de su cuerpo.",
+                     "Llamando a base.Constructor(parametros) dentro del cuerpo del constructor derivado.",
+                     "No es posible invocar constructores específicos de la clase base."
+                 ],
+                 correctAnswer: 1, // Índice b)
+                 feedback: "Respuesta Correcta: b)\nFeedback: Las páginas 23, 29 y 33-34 muestran que la sintaxis para llamar a un constructor de la clase base es usar : base(parametros) en la firma del constructor de la clase derivada."
+             },
+             {
+                 question: "¿Qué modificador de acceso permite que un miembro de la clase base sea accesible directamente desde el código de sus clases derivadas, pero no desde otras clases fuera de la jerarquía de herencia?",
+                 options: [ "private", "internal", "public", "protected" ],
+                 correctAnswer: 3, // Índice d)
+                 feedback: "Respuesta Correcta: d)\nFeedback: Las páginas 43 y 47 explican que el modificador protected extiende el acceso de un miembro a las clases derivadas, además de la propia clase donde se define."
+             },
+             {
+                 question: "Según las reglas de accesibilidad en la herencia, ¿puede una clase derivada (ej: Auto) ser declarada con un nivel de acceso más permisivo (ej: public) que su clase base (ej: internal Automotor)?",
+                 options: [
+                     "Sí, la clase derivada puede tener cualquier nivel de acceso.",
+                     "Sí, pero solo si la clase base es object.",
+                     "No, una clase derivada no puede ser más accesible que su clase base.",
+                     "No, ambas deben tener exactamente el mismo nivel de acceso."
+                 ],
+                 correctAnswer: 2, // Índice c)
+                 feedback: "Respuesta Correcta: c)\nFeedback: Las páginas 54-55 establecen la regla de que las clases no pueden ser más accesibles que su clase base, mostrando el error de compilación por \"incoherencia de accesibilidad\"."
+             },
+             {
+                 question: "¿Cuál es una característica fundamental de una clase declarada como abstract?",
+                 options: [
+                     "Solo puede contener métodos static.",
+                     "No se pueden crear instancias (objetos) directamente de ella.",
+                     "Todos sus miembros deben ser declarados como abstract.",
+                     "No puede tener constructores."
+                 ],
+                 correctAnswer: 1, // Índice b)
+                 feedback: "Respuesta Correcta: b)\nFeedback: La página 60 define que no se pueden crear instancias de una clase abstracta; su propósito es servir como clase base común."
+             },
+              {
+                  question: "Si una clase base abstract define un miembro abstract (ej: public abstract void MetodoAbstracto();), ¿qué debe hacer una clase derivada no abstracta que hereda de ella?",
+                  options: [
+                      "Ignorar el miembro abstracto, ya que no tiene implementación.",
+                      "Declarar el miembro también como abstract.",
+                      "Proporcionar una implementación concreta para ese miembro usando override.",
+                      "Puede elegir implementar o no el miembro abstracto."
+                  ],
+                  correctAnswer: 2, // Índice c)
+                  feedback: "Respuesta Correcta: c)\nFeedback: Las páginas 61 y 62 explican que los miembros abstractos deben ser implementados (usando override) en las subclases concretas (no abstractas). No hacerlo genera un error de compilación."
+              },
+              {
+                  question: "¿Es posible declarar métodos estáticos (static) como virtual, override o abstract?",
+                  options: [
+                      "Sí, los métodos estáticos pueden ser virtuales y abstractos.",
+                      "Sí, pero solo si la clase contenedora también es estática.",
+                      "No, marcar un método estático con virtual, override o abstract provoca un error de compilación.",
+                      "Solo se pueden marcar como override, no como virtual o abstract."
+                  ],
+                  correctAnswer: 2, // Índice c)
+                  feedback: "Respuesta Correcta: c)\nFeedback: La página 65 indica claramente que los modificadores virtual, override o abstract solo se usan con miembros de instancia y aplicarlos a miembros estáticos genera un error de compilación."
+              },
+              {
+                  question: "¿Qué significa el término \"polimorfismo\" en el contexto de la herencia y la programación orientada a objetos, según la teoría?",
+                  options: [
+                      "La capacidad de una clase para tener múltiples constructores.",
+                      "La capacidad de un objeto en tiempo de ejecución para adoptar la forma (comportarse como) un tipo no idéntico a su tipo declarado.",
+                      "La restricción de que una clase solo puede heredar de una clase base directa.",
+                      "La técnica de ocultar miembros heredados usando la palabra clave new."
+                  ],
+                  correctAnswer: 1, // Índice b)
+                  feedback: "Respuesta Correcta: b)\nFeedback: La página 67 define el polimorfismo como la capacidad de un objeto polimórfico de adoptar la forma de un tipo diferente a su tipo declarado en tiempo de ejecución, gracias a la relación \"es un\" de la herencia."
+              },
+               {
+                   question: "Cuando se invoca un método virtual (ej: a.Imprimir(); donde a es de tipo Automotor), ¿qué determina cuál implementación específica del método (Automotor.Imprimir, Auto.Imprimir, Colectivo.Imprimir) se ejecuta?",
+                   options: [
+                       "El tipo de la variable de referencia (en este caso, Automotor).",
+                       "El modificador de acceso del método (public, protected, etc.).",
+                       "El tipo real del objeto al que apunta la variable en tiempo de ejecución (enlace dinámico).",
+                       "Si el método fue llamado usando base.Imprimir() o no."
+                   ],
+                   correctAnswer: 2, // Índice c)
+                   feedback: "Respuesta Correcta: c)\nFeedback: Las páginas 70-71 explican el concepto de enlace dinámico: el CLR busca en tiempo de ejecución el tipo específico del objeto e invoca la implementación (override) correcta del método virtual correspondiente a ese tipo real."
+               },
+               {
+                   question: "¿Cuál es el propósito principal de sobrescribir (override) el método ToString() heredado de la clase object?",
+                   options: [
+                       "Cambiar el nombre de la clase cuando se imprime.",
+                       "Permitir que la clase sea utilizada en colecciones genéricas.",
+                       "Proporcionar una representación textual significativa del estado del objeto.",
+                       "Optimizar la recolección de basura para los objetos de esa clase."
+                   ],
+                   correctAnswer: 2, // Índice c)
+                   feedback: "Respuesta Correcta: c)\nFeedback: Las páginas 86-88 explican que la implementación por defecto de ToString() solo devuelve el nombre del tipo, y sobrescribirlo permite devolver una cadena que represente de forma útil el estado actual del objeto, lo cual es valioso para depuración y logging."
+               },
+               {
+                   question: "Para definir un método de extensión que agregue funcionalidad a un tipo existente (ej: int), ¿qué se requiere en la declaración del método estático?",
+                   options: [
+                       "Que el método devuelva el mismo tipo que está extendiendo.",
+                       "Que la clase contenedora herede del tipo que se está extendiendo.",
+                       "Usar la palabra clave extension antes del tipo de retorno.",
+                       "Usar el modificador this antes del primer parámetro, cuyo tipo es el que se está extendiendo."
+                   ],
+                   correctAnswer: 3, // Índice d)
+                   feedback: "Respuesta Correcta: d)\nFeedback: La página 97 muestra la sintaxis para convertir un método de utilidad en un método de extensión: anteponer el modificador this al primer parámetro, indicando el tipo al que se aplicará el método."
+               },
+                {
+                    question: "¿En qué tipo de clase deben definirse los métodos de extensión?",
+                    options: [
+                        "En una clase abstract.",
+                        "En la misma clase cuyo tipo se está extendiendo.",
+                        "En una clase static.",
+                        "En cualquier clase no sellada (sealed)."
+                    ],
+                    correctAnswer: 2, // Índice c)
+                    feedback: "Respuesta Correcta: c)\nFeedback: Las páginas 94 y 97 indican que los métodos de extensión se definen como métodos estáticos dentro de una clase estática (utility class)."
+                }
+        ];
+
+        // Elementos del DOM (sin cambios)
+        const quizContainer = document.getElementById('quiz-container');
+        const questionContainer = document.getElementById('question-container');
+        const questionNumberEl = document.getElementById('question-number');
+        const questionTextEl = document.getElementById('question-text');
+        const optionsListEl = document.getElementById('options-list');
+        const submitBtn = document.getElementById('submit-btn');
+        const feedbackContainer = document.getElementById('feedback-container');
+        const feedbackResultEl = document.getElementById('feedback-result');
+        const feedbackExplanationEl = document.getElementById('feedback-explanation');
+        const nextBtn = document.getElementById('next-btn');
+        const scoreContainer = document.getElementById('score-container');
+        const scoreEl = document.getElementById('score');
+        const totalQuestionsEl = document.getElementById('total-questions');
+        const restartBtn = document.getElementById('restart-btn');
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function loadQuestion() {
+            feedbackContainer.style.display = 'none';
+            nextBtn.style.display = 'none';
+            submitBtn.style.display = 'block';
+            submitBtn.disabled = false;
+            nextBtn.textContent = 'Siguiente Pregunta'; // Restablecer texto del botón
+
+            const currentQuestion = quizData[currentQuestionIndex];
+
+            questionNumberEl.textContent = `Pregunta ${currentQuestionIndex + 1} de ${quizData.length}`;
+            questionTextEl.textContent = currentQuestion.question;
+            optionsListEl.innerHTML = '';
+
+            currentQuestion.options.forEach((option, index) => {
+                const li = document.createElement('li');
+                const input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'option';
+                input.value = index;
+                input.id = `option${index}`;
+
+                const label = document.createElement('label');
+                const letterPrefix = String.fromCharCode(97 + index) + ') '; // a), b), c)...
+                label.textContent = letterPrefix + option;
+                label.htmlFor = `option${index}`;
+
+                li.appendChild(input);
+                li.appendChild(label);
+                optionsListEl.appendChild(li);
+            });
+        }
+
+        function checkAnswer() {
+            const selectedOptionInput = optionsListEl.querySelector('input[name="option"]:checked');
+
+            if (!selectedOptionInput) {
+                alert('Por favor, selecciona una respuesta.');
+                return;
+            }
+
+            const selectedAnswerIndex = parseInt(selectedOptionInput.value);
+            const currentQuestion = quizData[currentQuestionIndex];
+
+            // Procesar feedback para enlaces PDF
+            let feedbackText = currentQuestion.feedback;
+            const pageRegex = /(p[áa]gina[s]?\s*)(\d+)/gi; // Busca "página X" o "paginas X"
+            let match;
+            if (typeof feedbackText.replaceAll === 'function') {
+                 feedbackText = feedbackText.replaceAll(pageRegex, (fullMatch, prefix, pageNum) => {
+                     const pdfUrl = `${pdfFileName}#page=${pageNum}`;
+                     // Incluir el prefijo ("página ") antes del enlace
+                     return `${prefix}<a href="${pdfUrl}" target="_blank" title="Abrir PDF en página ${pageNum}">${pageNum}</a>`;
+                 });
+            } else {
+                 // Fallback para navegadores antiguos
+                 while ((match = pageRegex.exec(feedbackText)) !== null) {
+                    const fullMatch = match[0];
+                    const prefix = match[1];
+                    const pageNum = match[2];
+                    const pdfUrl = `${pdfFileName}#page=${pageNum}`;
+                    const pageLink = `${prefix}<a href="${pdfUrl}" target="_blank" title="Abrir PDF en página ${pageNum}">${pageNum}</a>`;
+                    feedbackText = feedbackText.replace(fullMatch, pageLink);
+                    pageRegex.lastIndex = 0; // Resetear para búsqueda global en cadena modificada
+                 }
+            }
+
+            // Mostrar feedback
+            feedbackContainer.style.display = 'block';
+            feedbackExplanationEl.innerHTML = feedbackText; // Usar innerHTML para el enlace
+            feedbackContainer.classList.remove('feedback-correct', 'feedback-incorrect');
+
+            // Evaluar respuesta y actualizar UI
+            if (selectedAnswerIndex === currentQuestion.correctAnswer) {
+                score++;
+                feedbackResultEl.textContent = '¡Correcto!';
+                feedbackContainer.classList.add('feedback-correct');
+            } else {
+                 feedbackResultEl.textContent = 'Incorrecto.';
+                feedbackContainer.classList.add('feedback-incorrect');
+                 const correctLi = optionsListEl.children[currentQuestion.correctAnswer];
+                 if(correctLi) {
+                     correctLi.style.backgroundColor = '#d4edda';
+                     correctLi.style.fontWeight = 'bold';
+                 }
+            }
+
+            // Deshabilitar interacción post-respuesta
+            submitBtn.disabled = true;
+            submitBtn.style.display = 'none'; // Ocultar botón verificar
+            const radioButtons = optionsListEl.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(rb => rb.disabled = true);
+            const listItems = optionsListEl.querySelectorAll('li');
+            listItems.forEach(li => li.style.cursor = 'default');
+
+            // Mostrar el botón "Siguiente" o "Ver Resultados"
+            nextBtn.style.display = 'block';
+            if (currentQuestionIndex >= quizData.length - 1) { // Es la última pregunta
+                nextBtn.textContent = 'Ver Resultados Finales';
+            }
+        }
+
+        function nextQuestion() {
+            // Comprobar si estamos en la última pregunta ANTES de incrementar
+             if (currentQuestionIndex >= quizData.length - 1) {
+                 showResults(); // Si ya era la última, mostrar resultados
+                 return; // Salir de la función
+             }
+
+            // Si no es la última, incrementar índice y cargar siguiente
+             currentQuestionIndex++;
+             // Restablecer estilos antes de cargar la nueva pregunta
+             Array.from(optionsListEl.children).forEach(li => {
+                li.style.backgroundColor = '';
+                li.style.fontWeight = '';
+                li.style.cursor = 'pointer';
+            });
+             loadQuestion();
+        }
+
+         function showResults() {
+            questionContainer.style.display = 'none';
+            submitBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
+            feedbackContainer.style.display = 'none';
+            scoreContainer.style.display = 'block';
+            scoreEl.textContent = score;
+            totalQuestionsEl.textContent = quizData.length;
+        }
+
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            scoreContainer.style.display = 'none';
+            questionContainer.style.display = 'block';
+             // Restablecer estilos al reiniciar
+             Array.from(optionsListEl.children).forEach(li => {
+                 li.style.backgroundColor = '';
+                 li.style.fontWeight = '';
+                 li.style.cursor = 'pointer';
+             });
+            loadQuestion(); // Esto ya restablece el texto del botón nextBtn
+        }
+
+        // Event Listeners
+        submitBtn.addEventListener('click', checkAnswer);
+        nextBtn.addEventListener('click', nextQuestion);
+        restartBtn.addEventListener('click', restartQuiz);
+
+        // Carga inicial
+        loadQuestion();
+
+    </script>
+
+</body>
+</html>

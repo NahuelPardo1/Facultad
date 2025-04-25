@@ -1,0 +1,12 @@
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.AssemblyInfoInputs.cache
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.AssemblyInfo.cs
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.csproj.CoreCompileInputs.cache
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.sourcelink.json
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\bin\Debug\net9.0\Figuras.deps.json
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\bin\Debug\net9.0\Figuras.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\bin\Debug\net9.0\Figuras.pdb
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\refint\Figuras.dll
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\Figuras.pdb
+C:\Users\Nahu\Desktop\Universidad\DOTNET\ej12\Figuras\obj\Debug\net9.0\ref\Figuras.dll

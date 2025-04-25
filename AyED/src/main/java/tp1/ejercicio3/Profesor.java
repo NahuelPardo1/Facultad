@@ -3,9 +3,17 @@ package tp1.ejercicio3;
 public class Profesor {
     private String nombre;
     private String apellido;
-    private String catedra;
     private String email;
+    private String catedra;
     private String facultad;
+
+    public Profesor(String apellido, String nombre, String email, String catedra, String facultad) {
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.email = email;
+        this.catedra = catedra;
+        this.facultad = facultad;
+    }
 
     public String getNombre() {
         return nombre;
@@ -23,20 +31,20 @@ public class Profesor {
         this.apellido = apellido;
     }
 
-    public String getCatedra() {
-        return catedra;
-    }
-
-    public void setCatedra(String catedra) {
-        this.catedra = catedra;
-    }
-
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getCatedra() {
+        return catedra;
+    }
+
+    public void setCatedra(String catedra) {
+        this.catedra = catedra;
     }
 
     public String getFacultad() {
@@ -47,7 +55,8 @@ public class Profesor {
         this.facultad = facultad;
     }
     public String tusDatos(){
-        String aux="Nombre: "+this.getNombre()+" Apellido: "+this.getApellido()+" Catedra: "+this.getCatedra()+ " Email: "+ this.getEmail()+ " Facultad: "+this.getFacultad();
+        String aux= "Nombre = "+ getNombre()+"\nApellido = "+getApellido()+"\nCatedra = "+getCatedra()+"\nEmail = "+ getEmail()+
+                "\nFacultad = "+getFacultad();
         return aux;
     }
 }

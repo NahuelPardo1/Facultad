@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio1/ej1TP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025_TP1_Listas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025_TP2_AB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025_TP3_AG.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 1.1 - Creando clases - static - parametros (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 2.2 - Herencia en Colas - Pilas y Java List.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 3.1 - Arboles Binarios.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 3.2 - Arboles de Expresión.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 4 - Arboles Binarios y de Expresión en JAVA-vf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 5 - Arboles Generales.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 5.1 - Resolución de la ejercitación con Recorrido por Niveles en AG.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASE 6 - Arboles Generales en JAVA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio1/tp1_ej1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio2/tp1_ej2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio4/tp1_ej4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio5/Resultado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio5/tp1_ej5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio6/tp1_ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/Recursividad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/DoubleEndedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/DoubleEndedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/ej1_tp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio3/ContadorArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp2/ejercicio3/ContadorArbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio4/RedBinariaLlena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio5/ProfundidadDeArbolBinario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio6/Transformacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NahuPardo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NahuPardo/Facultad.git&quot;,
+    &quot;accountId&quot;: &quot;1ec86dd2-4613-4fa4-8668-d8d129ecfef0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2w6PyxtJGiT7iuq4gBLNxf3If1p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTree.executor": "Run",
+    "Application.Sucesion.executor": "Run",
+    "Application.Suma.executor": "Run",
+    "Application.Test.executor": "Debug",
+    "Application.TestArrayList.executor": "Run",
+    "Application.TestBalanceo.executor": "Run",
+    "Application.ej1TP1.executor": "Run",
+    "Application.ej2TP1.executor": "Run",
+    "Application.ej4_tp2.executor": "Debug",
+    "Application.ej5_tp1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp1.ejercicio7.TestArrayList" />
+      <module name="AyED" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3 4 5 6 7 8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp1.ejercicio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestArrayList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="" />
+      <created>1745359310879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745359310879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tp1/ejercicio4/ej4_tp1.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
