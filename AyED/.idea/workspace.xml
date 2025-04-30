@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio1/ej1TP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_TP1_Listas.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_TP2_AB.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_TP3_AG.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 1.1 - Creando clases - static - parametros (1).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 2.2 - Herencia en Colas - Pilas y Java List.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 3.1 - Arboles Binarios.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 3.2 - Arboles de Expresión.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 4 - Arboles Binarios y de Expresión en JAVA-vf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 5 - Arboles Generales.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 5.1 - Resolución de la ejercitación con Recorrido por Niveles en AG.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLASE 6 - Arboles Generales en JAVA.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio1/tp1_ej1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio2/tp1_ej2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Profesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio4/tp1_ej4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio5/Resultado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio5/tp1_ej5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio6/tp1_ejercicio6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/Recursividad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio7/estudiante.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/DoubleEndedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/DoubleEndedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp1/ejercicio8/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio1/ej1_tp2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio3/ContadorArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp2/ejercicio3/ContadorArbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio4/RedBinariaLlena.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio5/ProfundidadDeArbolBinario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp2/ejercicio6/Transformacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +48,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinaryTree.executor": "Run",
+    "Application.ProfundidadDeArbolBinario.executor": "Run",
+    "Application.RedBinariaLlena.executor": "Run",
     "Application.Sucesion.executor": "Run",
     "Application.Suma.executor": "Run",
     "Application.Test.executor": "Debug",
     "Application.TestArrayList.executor": "Run",
     "Application.TestBalanceo.executor": "Run",
+    "Application.Transformacion.executor": "Run",
     "Application.ej1TP1.executor": "Run",
     "Application.ej2TP1.executor": "Run",
     "Application.ej4_tp2.executor": "Debug",

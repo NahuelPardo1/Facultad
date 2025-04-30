@@ -27,6 +27,7 @@ public class BinaryTree <T> {
     public void setData(T data) {
         this.data = data;
     }
+
     /**
      * Preguntar antes de invocar si hasLeftChild()
      * @return
