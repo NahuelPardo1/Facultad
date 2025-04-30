@@ -1,0 +1,3 @@
+interface IImprimible{
+    void Imprimir();
+}

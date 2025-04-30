@@ -1,0 +1,15 @@
+C:\Users\Nahue\Facultad\DOTNET\practica7\bin\Debug\net9.0\practica7.exe
+C:\Users\Nahue\Facultad\DOTNET\practica7\bin\Debug\net9.0\practica7.deps.json
+C:\Users\Nahue\Facultad\DOTNET\practica7\bin\Debug\net9.0\practica7.runtimeconfig.json
+C:\Users\Nahue\Facultad\DOTNET\practica7\bin\Debug\net9.0\practica7.dll
+C:\Users\Nahue\Facultad\DOTNET\practica7\bin\Debug\net9.0\practica7.pdb
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.AssemblyInfoInputs.cache
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.AssemblyInfo.cs
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.sourcelink.json
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.dll
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\refint\practica7.dll
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.pdb
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\practica7.genruntimeconfig.cache
+C:\Users\Nahue\Facultad\DOTNET\practica7\obj\Debug\net9.0\ref\practica7.dll

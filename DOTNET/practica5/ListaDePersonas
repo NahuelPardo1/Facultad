@@ -1,0 +1,27 @@
+class ListaDePersonas{
+
+    private List<Persona> lista;
+    public Persona this[int dni]{
+        get{
+            return lista.Find(dni);
+        }
+    }
+    public List<string> this[char c]{
+        get{
+            List<string> result = [];
+            if(lista.Find(p.Nombre[0] == c)!=null ){
+               result.addAll(lista.FindAll(p.Nombre[0]==c));
+            }
+            return result;
+        }
+    } 
+
+    public ListaDePersonas(){
+        lista = new List<Persona>();
+    }
+
+    public void Agregar(Persona p)
+    {
+        lista.add(p);
+    }    
+}

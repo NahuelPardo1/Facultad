@@ -27,12 +27,7 @@ public class Persona{
             }else if(i==3){
                 return FechaNacimiento;
             }else if(i==4){
-                DateTime hoy = DateTime.Today;
-                int edad = hoy.Year - FechaNacimiento.Year;
-                if(FechaNacimiento.Date > hoy.AddYears(-edad)){
-                edad--;
-                }
-                return edad;
+                return Edad;
             }else{
                 return 0;
             }
