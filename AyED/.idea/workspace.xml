@@ -29,12 +29,12 @@
     &quot;assignee&quot;: &quot;NahuPardo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NahuPardo/Facultad.git",
-    "accountId": "15db51a7-bd29-4a2e-8048-09f4854957f1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NahuPardo/Facultad.git&quot;,
+    &quot;accountId&quot;: &quot;15db51a7-bd29-4a2e-8048-09f4854957f1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -46,9 +46,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinaryTree.executor": "Run",
+    "Application.Caminos.executor": "Run",
     "Application.ProfundidadDeArbolBinario.executor": "Run",
     "Application.RecorridosAG.executor": "Run",
     "Application.RedBinariaLlena.executor": "Run",
+    "Application.RedDeAguaPotable.executor": "Run",
     "Application.Sucesion.executor": "Run",
     "Application.Suma.executor": "Run",
     "Application.Test.executor": "Debug",
@@ -70,7 +72,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RecorridosAG">
+  <component name="RunManager">
     <configuration name="RecorridosAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp3.ejercicio2.RecorridosAG" />
       <module name="AyED" />

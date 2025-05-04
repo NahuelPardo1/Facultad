@@ -186,4 +186,48 @@ public class GeneralTree<T>{
 		}
 		return maxCant;
 	}
+	public boolean esAncestro(T a, T b){
+		Queue<GeneralTree<T>> cola = new Queue<>();
+		GeneralTree<T> aux;
+		GeneralTree<T> nodoRaiz = new GeneralTree<T>();
+		boolean encontre = false;
+		cola.enqueue(this);
+		while(!cola.isEmpty() && !encontre){
+			aux = cola.dequeue();
+			if(aux.getData().equals(a)){
+				encontre = true;
+				nodoRaiz = aux;
+			}
+			if(aux.getData().equals(b)){
+				return false;
+			}
+			if(aux.hasChildren() && !encontre){
+				List<GeneralTree<T>> children = aux.getChildren();
+				for(GeneralTree<T> child : children){
+					cola.enqueue(child);
+				}
+			}
+		}
+		if(encontre){
+			encontre = esAncestro(nodoRaiz,b);
+			return encontre;
+		}else return false;
+	}
+
+	private boolean esAncestro(GeneralTree<T> a, T b){
+		Queue<GeneralTree<T>> cola = new Queue<GeneralTree<T>>();
+		GeneralTree<T> aux;
+		cola.enqueue(a);
+		while(!cola.isEmpty()){
+			aux= cola.dequeue();
+			if(aux.getData().equals(b) ) return true;
+			if(aux.hasChildren()){
+				List<GeneralTree<T>> children = aux.getChildren();
+				for(GeneralTree<T> child : children) {
+					cola.enqueue(child);
+				}
+			}
+		}
+		return false;
+	}
 }
