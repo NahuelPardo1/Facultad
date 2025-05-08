@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp3/ejercicio1/GeneralTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp3/ejercicio1/GeneralTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp3/ejercicio7/Caminos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp3/ejercicio7/Caminos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/NahuPardo/Facultad.git&quot;,
-    &quot;accountId&quot;: &quot;15db51a7-bd29-4a2e-8048-09f4854957f1&quot;
+    &quot;accountId&quot;: &quot;1ec86dd2-4613-4fa4-8668-d8d129ecfef0&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,6 +47,9 @@
   "keyToString": {
     "Application.BinaryTree.executor": "Run",
     "Application.Caminos.executor": "Run",
+    "Application.ComparadorDeArbolesGenerales.executor": "Run",
+    "Application.Gematria.executor": "Run",
+    "Application.ParcialArboles.executor": "Run",
     "Application.ProfundidadDeArbolBinario.executor": "Run",
     "Application.RecorridosAG.executor": "Run",
     "Application.RedBinariaLlena.executor": "Run",
@@ -61,6 +64,7 @@
     "Application.ej2TP1.executor": "Run",
     "Application.ej4_tp2.executor": "Debug",
     "Application.ej5_tp1.executor": "Run",
+    "Application.recorridoCombinado.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
