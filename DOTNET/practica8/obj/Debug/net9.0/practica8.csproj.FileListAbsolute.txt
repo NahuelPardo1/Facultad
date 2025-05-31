@@ -1,0 +1,15 @@
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\bin\Debug\net9.0\practica8.exe
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\bin\Debug\net9.0\practica8.deps.json
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\bin\Debug\net9.0\practica8.runtimeconfig.json
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\bin\Debug\net9.0\practica8.dll
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\bin\Debug\net9.0\practica8.pdb
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.AssemblyInfoInputs.cache
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.AssemblyInfo.cs
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.sourcelink.json
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.dll
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\refint\practica8.dll
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.pdb
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\practica8.genruntimeconfig.cache
+C:\Users\Nahue\OneDrive\Desktop\Facultad\DOTNET\practica8\obj\Debug\net9.0\ref\practica8.dll
