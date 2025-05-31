@@ -144,7 +144,6 @@ begin
     end
     else writeln('Empleado no encontrado');
 end;
-
 procedure eliminarEmpleado(var emp: archivo);
 var
     numABorrar: integer;
@@ -191,7 +190,6 @@ begin
 
     close(emp);
 end;
-
 procedure exportarCont(var emp:archivo; var c:Text);
 var
     e:empleado;
@@ -246,8 +244,10 @@ Begin
     writeln('Ingrese 6 para modificar la edad de un empleado');
     writeln('Ingrese 7 exportar el contenido a un archivo de texto');
     writeln('Ingrese 8 exportar a un archivo de texto los empleados que no tengan dni cargado');
+    writeln('Ingrese 9 para eliminar un empleado');
+
     readln(opcion);
-    while(opcion<1) or (opcion>8) do begin
+    while(opcion<1) or (opcion>9) do begin
         writeln('Ingresa un valor valido: ');
         read(opcion);
     end;

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="">
+    <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="practicando Parciales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp3/ejercicio1/GeneralTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp3/ejercicio1/GeneralTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcialesYTeoria/parcial4/ParcialArboles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcialesYTeoria/parcial4/ParcialArboles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +32,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/NahuPardo/Facultad.git&quot;,
-    &quot;accountId&quot;: &quot;15db51a7-bd29-4a2e-8048-09f4854957f1&quot;
+    &quot;accountId&quot;: &quot;1ec86dd2-4613-4fa4-8668-d8d129ecfef0&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -43,36 +46,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTree.executor": "Run",
-    "Application.Caminos.executor": "Run",
-    "Application.ProfundidadDeArbolBinario.executor": "Run",
-    "Application.RecorridosAG.executor": "Run",
-    "Application.RedBinariaLlena.executor": "Run",
-    "Application.RedDeAguaPotable.executor": "Run",
-    "Application.Sucesion.executor": "Run",
-    "Application.Suma.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TestArrayList.executor": "Run",
-    "Application.TestBalanceo.executor": "Run",
-    "Application.Transformacion.executor": "Run",
-    "Application.ej1TP1.executor": "Run",
-    "Application.ej2TP1.executor": "Run",
-    "Application.ej4_tp2.executor": "Debug",
-    "Application.ej5_tp1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nahue/OneDrive/Desktop/Facultad/AyED",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Caminos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparadorDeArbolesGenerales.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gematria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Parcial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialArbol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialArboles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfundidadDeArbolBinario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecorridosAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RedBinariaLlena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RedDeAguaPotable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sucesion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Suma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBalanceo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Transformacion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej1TP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej2TP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej4_tp2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ej5_tp1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.recorridoCombinado.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nahue/OneDrive/Desktop/Facultad/AyED&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.RecorridosAG">
     <configuration name="RecorridosAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp3.ejercicio2.RecorridosAG" />
       <module name="AyED" />
@@ -116,7 +125,20 @@
       <option name="presentableId" value="Default" />
       <updated>1745359310879</updated>
     </task>
+    <task id="LOCAL-00001" summary="practicando Parciales">
+      <option name="closed" value="true" />
+      <created>1746664083937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746664083937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practicando Parciales" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicando Parciales" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

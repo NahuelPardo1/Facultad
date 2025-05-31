@@ -2,6 +2,7 @@ package tp3.ejercicio7;
 
 import tp3.ejercicio1.GeneralTree;
 
+import java.lang.classfile.constantpool.IntegerEntry;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,9 +13,10 @@ public class Caminos {
     public Caminos(GeneralTree<Integer> a){
         this.a=a;
     }
+
     public List<Integer> caminoAHojaMasLejana(){
         List<Integer> l = new ArrayList<Integer>();
-        List<Integer> max = new ArrayList<>();
+        List<Integer> max = new ArrayList<Integer>();
         if(!a.isEmpty()){
             caminoAHojaMasLejana(a,l,max);
         }
@@ -33,6 +35,7 @@ public class Caminos {
         }
         l.removeLast();
     }
+
 
     public static void main(String[] args) {
         List<GeneralTree<Integer>> subChildren1 = new LinkedList<GeneralTree<Integer>>();
@@ -62,6 +65,7 @@ public class Caminos {
         arbol.add(a3);
         GeneralTree<Integer> a = new GeneralTree<Integer>(12, arbol);
 
+        System.out.println(a.toString());
         Caminos cam = new Caminos(a);
 
         System.out.println("Camino a hoja mas lejana: " + cam.caminoAHojaMasLejana());
