@@ -32,7 +32,7 @@ procedure minimo(var vec: vecDetalles; var vecReg: vecRegistros; var min: infoDe
 var
     i, pos: subrango;
 begin
-    min.codigo:= valoralto;
+    min.codigo:=valorAlto;
     for i:= 1 to DF do
     begin
         if(vecReg[i].codigo < min.codigo) then
