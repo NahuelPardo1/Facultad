@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="practicando Parciales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FOD/practica2/ej4TP2.pas" beforeDir="false" afterPath="$PROJECT_DIR$/../FOD/practica2/ej4TP2.pas" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
     "Application.ParcialArbol.executor": "Run",
     "Application.ParcialArboles.executor": "Run",
     "Application.ParcialGrafos1.executor": "Run",
+    "Application.ParcialGrafos2.executor": "Run",
     "Application.ProfundidadDeArbolBinario.executor": "Run",
     "Application.Recorridos.executor": "Run",
     "Application.RecorridosAG.executor": "Run",
@@ -96,7 +95,7 @@
       <recent name="parcialesYTeoria.parcialGrafos2t1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParcialGrafos1">
+  <component name="RunManager" selected="Application.ParcialGrafos2">
     <configuration name="BuscadorDeCaminos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp4.ejercicio6.BuscadorDeCaminos" />
       <module name="AyED" />
@@ -123,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecorridosAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp3.ejercicio2.RecorridosAG" />
+    <configuration name="ParcialGrafos2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parcialesYTeoria.parcialGrafos2.ParcialGrafos2" />
       <module name="AyED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp3.ejercicio2.*" />
+          <option name="PATTERN" value="parcialesYTeoria.parcialGrafos2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp1.ejercicio7.TestArrayList" />
+    <configuration name="RecorridosAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp3.ejercicio2.RecorridosAG" />
       <module name="AyED" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 3 4 5 6 7 8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp1.ejercicio7.*" />
+          <option name="PATTERN" value="tp3.ejercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParcialGrafos2" />
         <item itemvalue="Application.ParcialGrafos1" />
         <item itemvalue="Application.BuscadorDeCaminos" />
         <item itemvalue="Application.VisitaOslo" />
         <item itemvalue="Application.RecorridosAG" />
-        <item itemvalue="Application.TestArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746664083937</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="practicando Parciales">
+      <option name="closed" value="true" />
+      <created>1749844904039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749844904039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
