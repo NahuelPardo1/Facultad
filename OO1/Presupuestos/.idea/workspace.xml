@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d80cee1c-2430-4d88-8cab-0e02ff3cec52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../balanzaElectronica/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../balanzaElectronica/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../balanzaElectronica/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../balanzaElectronica/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ing de Software 1/DBD-presentación.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ar/edu/unlp/oo1/ejercicio1/Ejercicio1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ar/edu/unlp/oo1/ejercicio1/WallPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ar/edu/unlp/oo1/ejercicio1/WallPostUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/ar/edu/unlp/oo1/ejercicio1/WallPostTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ar/edu/unlp/oo1/ejercicio1/Ejercicio1Application$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ar/edu/unlp/oo1/ejercicio1/Ejercicio1Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ar/edu/unlp/oo1/ejercicio1/WallPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ar/edu/unlp/oo1/ejercicio1/WallPostUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ar/edu/unlp/oo1/ejercicio1/WallPostUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/ar/edu/unlp/oo1/ejercicio1/WallPostTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="32WDmP72ApbSm58f4wXltwYaFcg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ItemTest.executor": "Run",
+    "JUnit.PresupuestoTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80cee1c-2430-4d88-8cab-0e02ff3cec52" name="Changes" comment="" />
+      <created>1757527595524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757527595524</updated>
+    </task>
+    <servers />
+  </component>
+</project>
