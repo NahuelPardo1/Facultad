@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6ac1335-2f40-46fd-9993-6eeda69cdb52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DistrubuidoraElectrica/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inversores/src/main/java/org/example/Inversores.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../figurasYCuerpos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../balanzaElectronica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../balanzaElectronica/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="32vkCYqFpdNvDN0WBPanQkoUgzi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MamiferoTest.executor": "Run",
+    "JUnit.MamiferoTest.testAbuelaPaterna.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MamiferoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Genealogia-salvaje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MamiferoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MamiferoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6ac1335-2f40-46fd-9993-6eeda69cdb52" name="Changes" comment="" />
+      <created>1758308308251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758308308251</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/MamiferoTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.Mamifero" memberName="madre" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
