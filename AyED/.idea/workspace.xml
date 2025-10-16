@@ -5,7 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05aad4b2-6383-45f3-9009-1820021426fd" name="Changes" comment="practicando Parciales">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBD/Explicación.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../DBD/Explicación.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/DIContainer/obj/Debug/net9.0/DIContainer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/DIContainer/obj/Debug/net9.0/DIContainer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/DIContainer/obj/Debug/net9.0/DIContainer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/DIContainer/obj/Debug/net9.0/DIContainer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/LINQ/obj/Debug/net9.0/LINQ.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/LINQ/obj/Debug/net9.0/LINQ.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/LINQ/obj/Debug/net9.0/LINQ.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/LINQ/obj/Debug/net9.0/LINQ.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica2/obj/Debug/net8.0/practica2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica3/obj/Debug/net8.0/practica3.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Aplicacion/obj/Debug/net9.0/Aplicacion.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Automotores/obj/Debug/net9.0/Automotores.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/ej12/Figuras/obj/Debug/net9.0/Figuras.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica4/obj/Debug/net9.0/practica4.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica5/obj/Debug/net9.0/practica5.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica7/obj/Debug/net9.0/practica7.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica8/obj/Debug/net9.0/practica8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica8/obj/Debug/net9.0/practica8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica8/obj/Debug/net9.0/practica8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica8/obj/Debug/net9.0/practica8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica9/obj/Debug/net9.0/practica9.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica9/obj/Debug/net9.0/practica9.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOTNET/practica9/obj/Debug/net9.0/practica9.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DOTNET/practica9/obj/Debug/net9.0/practica9.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +89,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTree.executor": "Run",
-    "Application.BuscadorDeCaminos.executor": "Run",
-    "Application.Caminos.executor": "Run",
-    "Application.ComparadorDeArbolesGenerales.executor": "Run",
-    "Application.Gematria.executor": "Run",
-    "Application.Parcial.executor": "Run",
-    "Application.ParcialArbol.executor": "Run",
-    "Application.ParcialArboles.executor": "Run",
-    "Application.ParcialGrafos1.executor": "Run",
-    "Application.ParcialGrafos2.executor": "Run",
-    "Application.ProfundidadDeArbolBinario.executor": "Run",
-    "Application.Recorridos.executor": "Run",
-    "Application.RecorridosAG.executor": "Run",
-    "Application.RedBinariaLlena.executor": "Run",
-    "Application.RedDeAguaPotable.executor": "Run",
-    "Application.Sucesion.executor": "Run",
-    "Application.Suma.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TestArrayList.executor": "Run",
-    "Application.TestBalanceo.executor": "Run",
-    "Application.Transformacion.executor": "Run",
-    "Application.VisitaOslo.executor": "Run",
-    "Application.ej1TP1.executor": "Run",
-    "Application.ej2TP1.executor": "Run",
-    "Application.ej4_tp2.executor": "Debug",
-    "Application.ej5_tp1.executor": "Run",
-    "Application.recorridoCombinado.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nahue/OneDrive/Desktop/Facultad/AyED",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuscadorDeCaminos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Caminos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparadorDeArbolesGenerales.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Gematria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Parcial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialArbol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialArboles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialGrafos1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParcialGrafos2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfundidadDeArbolBinario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recorridos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecorridosAG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RedBinariaLlena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RedDeAguaPotable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sucesion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Suma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBalanceo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Transformacion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisitaOslo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej1TP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej2TP1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ej4_tp2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ej5_tp1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.recorridoCombinado.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nahue/OneDrive/Desktop/Facultad/AyED&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nahu\Desktop\Universidad\AyED\src\main\java\parcialesYTeoria\parcialGrafos2t1" />
